@@ -46,8 +46,9 @@ a:visited {
   column-gap: 15px;
 }
 .sketch-pad {
-  height: 50vh;
-  width: 50vw;
+  height: 500px;
+  min-width: 500px;
+  border-radius: 15px;
   background: rgb(152, 148, 187); 
   display: flex;
   flex-direction: column;
@@ -56,10 +57,20 @@ a:visited {
   padding-top: 20px;
 }
 .board {
-  height: 40vh;
-  width: 40vw;
+  height: 400px;
+  min-width: 400px;
+  border-radius: 15px;
   background-color: white;
 }
 .buttons {
   display: flex;
+}
+button {
+  /* font-size: 1.5rem;
+  border: solid rgba(82, 82, 90, 0.7) 1px;
+  box-shadow: 9px -3px 2px 3px rgba(82, 82, 90, 0.7);
+  padding: 10px;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%; */
 }
