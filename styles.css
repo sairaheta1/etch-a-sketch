@@ -47,14 +47,18 @@ a:visited {
 .sketch-pad {
   height: 50vh;
   width: 50vw;
-  background: black; 
+  background: rgb(172, 90, 90); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 .board {
   height: 40vh;
   width: 40vw;
   background-color: white;
+}
+.buttons {
+  display: flex;
 }
