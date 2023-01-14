@@ -8,15 +8,20 @@
 body {
   height: 100vh;
   font-family: 'Barlow Semi Condensed', sans-serif;
+  background: #5D5D81;
+}
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 header, main, footer {
   text-align: center;
   font-weight: 500;
 }
 header {
-  background: #BFCDE0;
-  font-size: 30px;
-}
+  font-size: 30px;}
 main {
   background: #5D5D81;
   display: flex;
@@ -24,8 +29,9 @@ main {
   padding: 50px;
 }
 footer {
-  background: #3B3355;
-  font-size: 20px;
+  background: #BFCDE0;
+  font-size: 25px;
+  margin-top: auto;
 }
 footer > p {
   color: #000505;
@@ -46,7 +52,7 @@ a:visited {
   column-gap: 15px;
 }
 .sketch-pad {
-  height: 500px;
+  min-height: 500px;
   min-width: 500px;
   border-radius: 15px;
   background: rgb(152, 148, 187); 
@@ -57,20 +63,36 @@ a:visited {
   padding-top: 20px;
 }
 .board {
-  height: 400px;
+  min-height: 400px;
   min-width: 400px;
   border-radius: 15px;
   background-color: white;
+  margin-top: 30px;
 }
 .buttons {
+  width: 100%;
+  margin: 20px 0px;
+  font-size: 25px;
   display: flex;
+  align-items: center;
+
 }
+
 button {
-  /* font-size: 1.5rem;
+  height: 80px;
+  width: 80px;
+  font-size: 20px;
   border: solid rgba(82, 82, 90, 0.7) 1px;
   box-shadow: 9px -3px 2px 3px rgba(82, 82, 90, 0.7);
   padding: 10px;
-  height: 2.5rem;
-  width: 2.5rem;
-  border-radius: 50%; */
+  border-radius: 50%;
+}
+.start-button {
+  margin-right: auto;
+  margin-left: 12px;
+}
+.clear-button {
+  margin-left: auto;
+  margin-right: 20px;
+
 }
