@@ -61,6 +61,7 @@ a:visited {
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  box-shadow: 9px -3px 2px 3px rgb(71, 69, 87);
 }
 .board {
   min-height: 400px;
