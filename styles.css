@@ -19,6 +19,8 @@ header {
 }
 main {
   background: #5D5D81;
+  display: flex;
+  justify-content: center;
 }
 footer {
   background: #3B3355;
@@ -46,6 +48,10 @@ a:visited {
   height: 50vh;
   width: 50vw;
   background: black; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .board {
   height: 40vh;
