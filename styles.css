@@ -24,18 +24,31 @@ footer {
   background: #3B3355;
   font-size: 20px;
 }
+footer > p {
+  color: #000505;
+}
 a:link {
-  color: white;
+  color: #FEFCFD;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 a:visited {
-  color: white;
+  color: #FEFCFD;
 }
 .container {
   display: flex;
   justify-content: center;
   column-gap: 15px;
+}
+.sketch-pad {
+  height: 50vh;
+  width: 50vw;
+  background: black; 
+}
+.board {
+  height: 40vh;
+  width: 40vw;
+  background-color: white;
 }
